@@ -33,20 +33,6 @@
         }
     });
     
-    
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
-    });
-
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -78,3 +64,16 @@
 
     
 })(jQuery);
+
+
+$(document).ready(function() {
+    $('#mostrarTodos').click(function() {
+      $('.producto').show();
+    });
+  
+    $('[data-filtro]').click(function() {
+      var filtro = $(this).data('filtro');
+      $('.producto').hide().filter('.' + filtro).show();
+    });
+  });
+  
