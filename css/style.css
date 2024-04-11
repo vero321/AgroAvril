@@ -194,7 +194,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/contacto.jpeg) top right no-repeat;
     background-size: cover;
 }
 
@@ -442,8 +442,17 @@
 .valores{
     font-size: 18px;
     font-color:black;
+}
 
+.inicio{
+    font-size: 22px;
+}
 
+.proceso{
+    font-size: 20px;
 
 }
 
+.border-top2 {
+  border-top: 3px solid #dee2e6 !important;
+}
