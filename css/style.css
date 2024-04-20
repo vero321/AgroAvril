@@ -198,6 +198,13 @@
     background-size: cover;
 }
 
+.page-header-servicios{
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/fondo.jpg) top right no-repeat;
+    background-size: cover;
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
